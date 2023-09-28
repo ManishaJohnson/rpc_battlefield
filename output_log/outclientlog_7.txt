@@ -1,0 +1,41 @@
+[SOLDIER 1] is the commander!
+. . S . . . . .
+. . . . . . S .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . S
+. . . . . . . .
+. . . . . . . .
+. S . . . . . .
+Dead soldiers: , Time: 3
+Time Interval: 0 ----------------------------------------------------------
+Missile M3 launched targeting (3, 6)
+[SOLDIER 2] In danger! Current position: (2, 1)
+[SOLDIER 2] Moved to (2, 2)
+R R R R . . . .
+R R R R . . . .
+R R R R . . . S
+R R R R . . . .
+R R R R . . . .
+. . . . . . . S
+. . . . . . . .
+S . . . . . . .
+Dead soldiers: 1, Time: 0
+Status: {'soldiers': [(1, False), (2, True), (3, True), (4, True)], 'commander': (1, False)}
+[COMMANDER]Commander is dead in battle Interval 0
+[SOLDIER 3] is the new commander!
+---------------------------------------------------------------------------
+
+Time Interval: 3 ----------------------------------------------------------
+Missile M3 launched targeting (0, 1)
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . R R R R R .
+. . R R R R R .
+. . R R R R R .
+Dead soldiers: 1, 2, 4, Time: 3
+Status: {'soldiers': [(1, False), (2, False), (3, True), (4, False)], 'commander': (3, True)}
+Battle is lost.

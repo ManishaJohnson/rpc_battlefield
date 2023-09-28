@@ -1,0 +1,23 @@
+[SOLDIER 2] is the commander!
+. S .
+. . .
+S . .
+Dead soldiers: , Time: 2
+Time Interval: 0 ----------------------------------------------------------
+Missile M2 launched targeting (1, 0)
+. . .
+R R R
+R R R
+Dead soldiers: 1, Time: 0
+Status: {'soldiers': [(1, False), (2, True)], 'commander': (2, True)}
+---------------------------------------------------------------------------
+
+Time Interval: 2 ----------------------------------------------------------
+Missile M3 launched targeting (0, 0)
+R R R
+R R R
+R R R
+Dead soldiers: 1, 2, Time: 2
+Status: {'soldiers': [(1, False), (2, False)], 'commander': (2, False)}
+[COMMANDER]Commander is dead in battle Interval 2
+Battle is lost.
